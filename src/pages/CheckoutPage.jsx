@@ -12,7 +12,7 @@ const loadRazorpay = () =>
   });
 
 // ⚠️ Replace with your Razorpay test key from dashboard.razorpay.com
-const RAZORPAY_KEY_ID = "rzp_test_XXXXXXXXXXXXXXXX";
+const RAZORPAY_KEY_ID = "rzp_test_LqWBBDbgwot5lh";
 
 const CheckoutPage = ({ user, onBack, onOrderSuccess }) => {
   const [cartItems, setCartItems] = useState([]);
