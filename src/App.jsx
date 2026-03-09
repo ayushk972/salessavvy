@@ -16,7 +16,7 @@ const App = () => {
   useEffect(() => {
     const checkSession = async () => {
       try {
-        const res = await fetch("http://localhost:8080/api/products", { credentials: "include" });
+        const res = await fetch("https://sales-savvy-1-chm6.onrender.com/api/products", { credentials: "include" });
         if (res.ok) {
           const data = await res.json();
           const username = data.user?.name;
