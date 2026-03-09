@@ -1,4 +1,5 @@
-const BASE_URL = "https://sales-savvy-1-chm6.onrender.com";
+const BASE_URL = "https://sales-savvy-1.onrender.com";
+
 
 const api = {
   // ── SESSION ───────────────────────────────────────────

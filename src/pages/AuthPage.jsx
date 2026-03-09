@@ -87,7 +87,7 @@ const AuthPage = ({ onAuth }) => {
       setSuccess(true);
       setTimeout(() => onAuth({ username: data.username, role: data.role }), 1000);
     } catch {
-      setApiErr("Cannot connect to server. Is Spring Boot running on port 8080?");
+      setApiErr("Cannot connect to server.");
       setLoading(false);
     }
   };
