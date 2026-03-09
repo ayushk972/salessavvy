@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "https://sales-savvy-1-chm6.onrender.com";
 
 const api = {
   // ── SESSION ───────────────────────────────────────────
